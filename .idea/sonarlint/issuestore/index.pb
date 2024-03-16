@@ -35,3 +35,7 @@ P
  bot/messages/name_symbol_coin.md,6\e\6e25ec4c7a27811b06e342d588f07e721f22082e
 G
 bot/utils/GetMessage.py,7\0\70298fdcec893e71e26820dd22dc04731db7da9a
+G
+bot/crypto_info.srevice,6\c\6cabd1232dba867acc4367fb7572d09feed21f57
+K
+systemd/crypto_info.service,c\8\c8efe0a07a7cf46a4e238da755041ba20cb3c15f

@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram Bot
+
+[Service]
+User=root
+WorkingDirectory=root/crypto_info
+VIRTUAL_ENV=root/crypto_info/venv
+Environment=PATH=$VIRTUAL_ENV/bin:$PATH
+ExecStart=root/crypto_info/venv/bin/python root/crypto_info/bot/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
